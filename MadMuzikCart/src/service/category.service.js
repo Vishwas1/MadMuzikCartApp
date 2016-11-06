@@ -17,7 +17,7 @@
       categoryLst.push({
           name : 'Accessories',
           id : '2',
-          imgPath : 'http://www.stagstuff.co.uk/content/ss/images/tshirts-490.png'
+          imgPath : 'https://www.stagstuff.co.uk/content/ss/images/tshirts-490.png'
 
       });
 
