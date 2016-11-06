@@ -1,0 +1,8 @@
+.categoryCell{
+  border: 1px solid grey;
+/*height: 300px;*/
+border-radius: 2px;
+box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.2);
+margin-top:10px;
+margin-left: 10px;
+}

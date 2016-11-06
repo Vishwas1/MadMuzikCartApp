@@ -1,0 +1,18 @@
+<div class="container">
+
+  <section id="tagline">
+    <div class="container">
+      <h3>Categories : </h3>
+    </div>
+  </section>
+  <section id="content" ng-controller="CategoryController as categoryCtrl">
+    <div class="container">
+      <div class="row show-grid">
+        <div class="col-md-5 categoryCell" ng-repeat="category in categoryCtrl.categories">
+          {{category.name}}</br>
+          <img src="{{category.imgPath}}" alt="" width="100%" height="300px">
+        </div>
+     </div>
+    </div>
+  </section>
+</div>
